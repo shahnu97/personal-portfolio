@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Shahnawaz's Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navigation">
+            <header>
+                <div class="logo-box"><img src="./assets/images/logo-s.webp" alt="Logo"></div>
+                <ul id="menuLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="hamburger" onclick="hamburger()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="connect-me-cta">
+                    <a href="https://wa.me/919870767786" target="_blank"><button class="btn-connect"><i class="fa-brands fa-whatsapp"></i>
+                            Connect Me</button></a>
+                </div>
+                <button onclick="themeChange()">Toggle</button>
+            </header>
+        </div>
+    </div>
+
+    <section class="container" id="home">
+        <div class="hero">
+            <div class="left">
+                <h1>Hello I'm <div class="developer-name">Shahnawaz Khan</div></h1>
+                <h2 class="position">Website Developer</h2>
+                <p class="short-about">Who loves to build interactive websites, which helps the
+                    businesses to generate leads.</p>
+                <a href="https://wa.me/919870767786" target="_blank" class="hire-btn">Hire Me</a>
+            </div>
+            <div class="right">
+                <img src="./assets/images/sk.jpg" alt="Shahnawaz">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-blue">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-left">
+                    <img src="./assets/images/sk.jpg" alt="Shahnawaz Khan">
+                </div>
+                <div class="about-right">
+                    <h2>About Me</h2>
+                    <h3>Who is Shahnawaz</h3>
+                    <p>
+                        A Website Designer / Developer loves crafting web experiences that are both visually compelling and technically sound.
+                    </p>
+                    <p>I care deeply about the details — the micro-interaction that makes someone smile, the layout that feels effortless to navigate.</p>
+                    <p> I specialize in HTML, CSS, Javascript and I bridge the gap between design and development. When I'm not pushing pixels, I'm contributing to blogging.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-white">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-box">
+                <div class="skill skill-1">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill skill-2">
+                    <i class="fa-brands fa-css"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill skill-3">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h3>BOOTSTRAP</h3>
+                </div>
+                <div class="skill skill-4">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-blue">
+        <div class="container">
+            <h2 class="section-title white">Contact Me</h2>
+            <div class="contact-section">
+                <div class="contact-left">
+                    <h3>GET IN TOUCH</h3>
+                    <h2>Let's build something great</h2>
+                    <p>Have a project in mind or just want to say hello? Drop me a message — I'll get back within 24 hours.</p>
+                    <div class="details">
+                        <div class="icon-box">
+                            <div class="icon-b"><i class="fa-solid fa-at"></i></div>
+                            <a href="mailto:shahnu97@gmail.com"><p>shahnu97@gmail.com</p></a>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon-b"><i class="fa-brands fa-whatsapp"></i></div>
+                            <a href="https://wa.me/919870767786" target="_blank"><p>+919870767786</p></a>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon-b"><i class="fa-brands fa-github"></i></div>
+                            <a href="https://github.com/shahnu97"><p>github.com/shahnu97</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="" class="form-design">
+                        <input type="text" placeholder="Enter Your Name*" required>
+                        <input type="tel" placeholder="Enter Your Mobile*" required>
+                        <input type="email" placeholder="Enter Your Email*" required>
+                        <textarea name="requirement" id="" placeholder="Enter Your Requirement" rows="10"></textarea>
+                        <button type="submit" id="but1">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright 2026 | All Rights Reserved Designed by Shahnawaz Khan</p>
+    </footer>
+
+    <script type="text/javascript" src="./assets/js/custom.js"></script>
+
+</body>
+
+</html>
